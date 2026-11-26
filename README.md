@@ -94,19 +94,21 @@ Verifica que el `push` de tu cambio local genere una ejecución exitosa en **Act
 
 ## Criterios de evaluación
 
-| Criterio | Puntaje |
-|---|---:|
-| Workflow ubicado en la ruta correcta y con sintaxis válida | 2 |
-| Eventos `push` y `pull_request` configurados | 2 |
-| Runner Ubuntu y Python 3.12 configurados | 2 |
-| Dependencias instaladas desde `requirements-dev.txt` | 2 |
-| Pruebas ejecutadas y evidencia de ejecuciones exitosa y fallida | 2 |
-| **Total** | **10** |
+| Criterio                                                        | Puntaje |
+| --------------------------------------------------------------- | ------: |
+| Workflow ubicado en la ruta correcta y con sintaxis válida      |       2 |
+| Eventos `push` y `pull_request` configurados                    |       2 |
+| Runner Ubuntu y Python 3.12 configurados                        |       2 |
+| Dependencias instaladas desde `requirements-dev.txt`            |       2 |
+| Pruebas ejecutadas y evidencia de ejecuciones exitosa y fallida |       2 |
+| **Total**                                                       |  **10** |
 
 ## Uso del conversor
 
 ```text
 python conversor.py <valor> <escala_origen> <escala_destino>
 ```
+
+Ejemplo: `python conversor.py 35 C F` para pasar 35 grados Celsius a Fahrenheit
 
 Las escalas admitidas son `C` y `F` (también se acepta minúscula). Ejemplo: `python conversor.py 100 C F`.
