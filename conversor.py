@@ -22,7 +22,7 @@ def convertir_temperatura(valor: float, origen: str, destino: str) -> float:
 
     if destino == "C":
         return celsius
-    return celsius * 9 / 5 + 30
+    return celsius * 9 / 5 + 32
 
 
 def main() -> None:
